@@ -34,12 +34,12 @@ language: shell
 script:
   - |
     PUSH=false
-    REPO=ruimarinho/bitcoin-core
+    REPO=randymcmillan/bitcoin-core
     BUILD_IMAGE_TAG=$REPO:${BITCOIN_VERSION/\//-}
     LATEST_IMAGE_TAG=$REPO:latest
 
     if [ -n "$TRAVIS_TAG" ]; then
-      BUILD_IMAGE_TAG=ruimarinho/bitcoin-core:$TRAVIS_TAG
+      BUILD_IMAGE_TAG=randymcmillan/bitcoin-core:$TRAVIS_TAG
     fi
 
     echo ">>> Docker repo set to $REPO"
