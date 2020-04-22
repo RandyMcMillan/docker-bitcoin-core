@@ -14,20 +14,20 @@ env:
     - DOCKER_CLI_EXPERIMENTAL=enabled
     - PLATFORMS=linux/amd64,linux/arm/v7,linux/arm64
   matrix:
-    - BITCOIN_VERSION=0.19
+      #    - BITCOIN_VERSION=0.19
     - BITCOIN_VERSION=0.19/alpine
-    - BITCOIN_VERSION=0.18
-    - BITCOIN_VERSION=0.18/alpine
-    - BITCOIN_VERSION=0.17
-    - BITCOIN_VERSION=0.17/alpine
-    - BITCOIN_VERSION=0.16
-    - BITCOIN_VERSION=0.16/alpine
-    - BITCOIN_VERSION=0.13
-    - BITCOIN_VERSION=0.13/alpine
-    - BITCOIN_VERSION=0.12
-    - BITCOIN_VERSION=0.12/alpine
-    - BITCOIN_VERSION=0.11
-    - BITCOIN_VERSION=0.11/alpine
+      #    - BITCOIN_VERSION=0.18
+      #    - BITCOIN_VERSION=0.18/alpine
+      #    - BITCOIN_VERSION=0.17
+      #    - BITCOIN_VERSION=0.17/alpine
+      #    - BITCOIN_VERSION=0.16
+      #    - BITCOIN_VERSION=0.16/alpine
+      #    - BITCOIN_VERSION=0.13
+      #    - BITCOIN_VERSION=0.13/alpine
+      #    - BITCOIN_VERSION=0.12
+      #    - BITCOIN_VERSION=0.12/alpine
+      #    - BITCOIN_VERSION=0.11
+      #    - BITCOIN_VERSION=0.11/alpine
 
 language: shell
 
